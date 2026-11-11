@@ -53,7 +53,7 @@ export default function Hero() {
     Promise.all([
       preloadImages(),
       document.fonts?.ready ?? Promise.resolve(),
-      fetch('/assets/find-logo.svg').then((r) => r.text()),
+      fetch('/assets/nidus-logo.svg').then((r) => r.text()),
     ]).then(([, , svg]) => {
       if (!active) return
       setLogoSvg(svg)
@@ -106,7 +106,7 @@ export default function Hero() {
         )
 
       // Scroll-scrubbed transition: house rises, clouds part, logo outline draws,
-      // then the house is revealed through the FIND logo mask.
+      // then the house is revealed through the Nidus Estate logo mask.
       const scrollTl = gsap.timeline({ defaults: { ease: 'none' } })
       scrollTl
         .to([houseRef.current, compositeHouseRef.current], { yPercent: -40, scale: 1.3, duration: 1 }, 0)

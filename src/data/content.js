@@ -90,10 +90,10 @@ export const features = [
 
 export const posts = [
   {
-    date: '2026-09-02',
-    title: 'FIND Real Estate Featured in Redfin: What It Really Costs to Live in Harry Styles’ Neighborhood',
-    copy: 'A look at the housing prices, everyday expenses, and lifestyle costs in Harry Styles’ neighborhood.',
-    image: 'blog-redfin.png',
+    date: '2026-10-20',
+    title: 'Home Staging 101: Small Changes That Help Your Home Sell Faster',
+    copy: 'Light, layout and a little decluttering — simple ways to make buyers feel at home from the very first viewing.',
+    image: 'blog-staging.jpg',
   },
   {
     date: '2026-04-13',

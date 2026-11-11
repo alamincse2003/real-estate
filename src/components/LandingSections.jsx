@@ -36,7 +36,7 @@ function WhyFind() {
     <section id="why-find" className="why-find section-light">
       <div className="page-container">
         <div className="why-find-intro section-grid">
-          <h2 className="section-label">Why FIND</h2>
+          <h2 className="section-label">Why Nidus</h2>
           <p className="why-find-copy">
             Your life’s changing. Don’t just find a place — find what’s next.{' '}
             <span data-tone>
@@ -125,7 +125,7 @@ function Agents() {
             data-media-reveal
           />
           <p className="agents-copy">
-            At FIND, our agents don’t just work for the brand—they own a part of it.{' '}
+            At Nidus Estate, our agents don’t just work for the brand—they own a part of it.{' '}
             <span data-tone>
               We give top performers real equity, so they’re invested in more than just your
               transaction—they're invested in your outcome. Agents are certified, supported, and
@@ -195,7 +195,7 @@ function Services() {
       <div className="page-container services-heading section-grid">
         <p className="section-label">Services</p>
         <h2>
-          How FIND
+          How Nidus
           <br />
           <span data-tone>Can Help You</span>
         </h2>
@@ -218,7 +218,7 @@ function Services() {
           Our certified agents guide you through every stage of real estate{' '}
           <span data-tone>with expert knowledge and reliable support.</span>
         </p>
-        <ActionLink dark>Get Started with FIND</ActionLink>
+        <ActionLink dark>Get Started with Nidus</ActionLink>
       </div>
     </section>
   )

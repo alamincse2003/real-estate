@@ -122,8 +122,8 @@ a {
   will-change: opacity;
   position: absolute;
   inset: 0;
-  -webkit-mask: url(/assets/find-logo.svg) 50%/min(67.85vw,977px) no-repeat;
-  mask: url(/assets/find-logo.svg) 50%/min(67.85vw,977px) no-repeat;
+  -webkit-mask: url(/assets/nidus-logo.svg) 50%/min(72vw,1040px) no-repeat;
+  mask: url(/assets/nidus-logo.svg) 50%/min(72vw,1040px) no-repeat;
 }
 
 .hero-clouds {
@@ -159,11 +159,11 @@ a {
 
 .hero-outline-logo {
   z-index: 5;
-  aspect-ratio: 977/423;
+  aspect-ratio: 1141.44/411.28;
   color: #0000;
   opacity: 0;
   will-change: opacity;
-  width: min(67.85vw,977px);
+  width: min(72vw,1040px);
   position: absolute;
   top: 50%;
   left: 50%;
